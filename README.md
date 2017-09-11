@@ -1,7 +1,8 @@
-# PowerSwitch Project
+# SmartPowerSwitch Project
 
 ## Idea
-Having a simple and extensible way to switch 12V power with a microcontroller
+Having a simple and extensible way to switch 12V power with up to 10A with a microcontroller.
+The intended use for the device is to remotely switch things at amateur radio repeater sites. 
 
 ## Concept
 The idea is to use a Infineon SmartFET as powerswitch.
@@ -14,6 +15,21 @@ With a dip switch, we can change the address of both i2c devices simultaneously,
 
 Look at [PowerSwitch Idea](./PowerSwitch_Idea.pdf) for a Block Schema.
 
+## Current State
+An initial approach of the [Schema](./Circuit_Schema_v1.pdf) and the PCB is done, after review a prototype shall be built.
+
+### Current Issues
+- Almost no protection circuits on the internal voltage source
+- Current paths on the pcb not optimal (especially ground path)
+- Choose a suitable connector for the i2c backplane (suggestion: rj12, JST SH or some 2.54mm connector)
+
+
+## Further development
+- Design a board to mount the two colored button
+- Choose a ethernet enabled microcontroller and design a i2c shield for it 
+(and a nice GUI)
+- adapt the boards to mount into 1U rackunits with XLR 4-Pin connectors
 
 ## License
-MIT, 2017 Oliver Wisler
+[MIT, 2017 Oliver Wisler](./LICENSE)
+
