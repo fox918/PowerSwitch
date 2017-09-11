@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IPS7111SPBF
+D 70V, 5A, Intelligent Power Switch High Side, D2-PAK 5pin
+K  Intelligent Power Switch High Side MOSFET
+F http://www.irf.com/product-info/datasheets/data/ips7091.pdf
+$ENDCMP
+#
+#End Doc Library
