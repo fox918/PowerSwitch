@@ -19,8 +19,8 @@ Look at [PowerSwitch Idea](./PowerSwitch_Idea.pdf) for a Block Schema.
 An initial approach of the [Schema](./Circuit_Schema_v2.pdf) and the PCB is done, after review a prototype shall be built.
 
 ### Current PCB
-- [PCB Front](./PCB_front_v2.pdf) 
-- [PCB_Back](./PCB_back_v2.pdf) 
+- [PCB Front](./PCB_front_v2.png) 
+- [PCB_Back](./PCB_back_v2.png) 
 
 ### Current Issues
 - Almost no protection circuits on the internal voltage source
