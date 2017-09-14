@@ -16,7 +16,11 @@ With a dip switch, we can change the address of both i2c devices simultaneously,
 Look at [PowerSwitch Idea](./PowerSwitch_Idea.pdf) for a Block Schema.
 
 ## Current State
-An initial approach of the [Schema](./Circuit_Schema_v1.pdf) and the PCB is done, after review a prototype shall be built.
+An initial approach of the [Schema](./Circuit_Schema_v2.pdf) and the PCB is done, after review a prototype shall be built.
+
+### Current PCB
+- [PCB Front](./PCB_front_v2.pdf) 
+- [PCB_Back](./PCB_back_v2.pdf) 
 
 ### Current Issues
 - Almost no protection circuits on the internal voltage source
